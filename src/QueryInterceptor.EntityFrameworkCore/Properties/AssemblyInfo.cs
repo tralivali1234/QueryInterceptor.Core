@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("QueryInterceptor.EntityFramework")]
+[assembly: AssemblyProduct("QueryInterceptor.EntityFrameworkCore")]
 [assembly: AssemblyTrademark("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
@@ -15,4 +15,4 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("2db5e303-b891-4c55-98bf-f0cd867301d3")]
+[assembly: Guid("2db5e303-b891-4c55-98bf-f0cd86731977")]

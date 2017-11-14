@@ -8,8 +8,8 @@ using QueryInterceptor.UnitTests.Helpers.Entities;
 using Xunit;
 using QueryInterceptor.Core;
 
-#if EF
-namespace QueryInterceptor.EntityFramework
+#if EFCORE
+namespace QueryInterceptor.EntityFrameworkCore
 #else
 namespace QueryInterceptor.Core.UnitTests
 #endif
@@ -80,7 +80,7 @@ namespace QueryInterceptor.Core.UnitTests
             var expected = _context.Blogs.Select(x => new { x.BlogId, x.Name, x.Posts }).ToArray();
 
             //Assert
-            Assert.Equal(expected.Length, 5);
+            Assert.Equal(5, expected.Length);
         }
 
         [Fact]
